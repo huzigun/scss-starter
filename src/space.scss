@@ -1,0 +1,57 @@
+@for $lv from 1 to 12 {
+  .ma-#{$lv} {
+    margin: #{$lv * $space}px;
+  }
+  .mx-#{$lv} {
+    margin-left: #{$lv * $space}px;
+    margin-right: #{$lv * $space}px;
+  }
+  .my-#{$lv} {
+    margin-top: #{$lv * $space}px;
+    margin-bottom: #{$lv * $space}px;
+  }
+  .mr-#{$lv} {
+    margin-right: #{$lv * $space}px;
+  }
+  .ml-#{$lv} {
+    margin-left: #{$lv * $space}px;
+  }
+  .mt-#{$lv} {
+    margin-top: #{$lv * $space}px;
+  }
+  .mb-#{$lv} {
+    margin-bottom: #{$lv * $space}px;
+  }
+
+  .pa-#{$lv} {
+    padding: #{$lv * $space}px;
+  }
+
+  .px-#{$lv} {
+    padding-left: #{$lv * $space}px;
+    padding-right: #{$lv * $space}px;
+  }
+
+  .py-#{$lv} {
+    padding-top: #{$lv * $space}px;
+    padding-bottom: #{$lv * $space}px;
+  }
+
+  .pr-#{$lv} {
+    padding-right: #{$lv * $space}px;
+  }
+  .pl-#{$lv} {
+    padding-left: #{$lv * $space}px;
+  }
+  .pt-#{$lv} {
+    padding-top: #{$lv * $space}px;
+  }
+  .pb-#{$lv} {
+    padding-bottom: #{$lv * $space}px;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}

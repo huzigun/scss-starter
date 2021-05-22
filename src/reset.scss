@@ -95,14 +95,14 @@ button {
 }
 
 input {
-  &[type="button"],
-  &[type="submit"] {
+  &[type='button'],
+  &[type='submit'] {
     cursor: pointer;
     border: 0 none;
   }
 
-  &[type="text"],
-  &[type="password"] {
+  &[type='text'],
+  &[type='password'] {
     border-radius: 0;
     outline: none;
     border: 1px solid #ddd;
@@ -118,8 +118,8 @@ input {
     }
   }
 
-  &[type="checkbox"],
-  &[type="radio"] {
+  &[type='checkbox'],
+  &[type='radio'] {
     cursor: pointer;
   }
 }
@@ -207,7 +207,7 @@ q {
 
   &:before,
   &:after {
-    content: "";
+    content: '';
     content: none;
   }
 }
